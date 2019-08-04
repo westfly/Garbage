@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/my/index",
+    "pages/authorize/index",
     "pages/ai/index",
     "pages/ai/camera/camera",
     "pages/ai/search",
-    "pages/ad/index",
     "pages/ai/filter/filter",
     "pages/android/qa",
     "pages/index/index",
@@ -33,6 +34,12 @@
         "text": "分类",
         "iconPath": "images/icon_sort_default.png",
         "selectedIconPath": "images/icon_sort.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "images/icon_normal.png",
+        "selectedIconPath": "images/icon_pressed.png"
       }
     ]
   },
